@@ -29,7 +29,7 @@ export const LandingPage = () => {
 
   return (
     <div
-      className="max-w-screen-2xl ml-auto mr-auto"
+      className="max-w-screen-2xl ml-auto mr-auto px-4"
       onClick={handleClosePopup}
     >
       <div className="flex flex-col items-center gap-12 py-12">
@@ -51,7 +51,7 @@ export const LandingPage = () => {
         </button>
         <img
           alt="landing-img"
-          className="rounded-2xl max-w-screen-lg"
+          className="rounded-2xl w-[90%] max-w-screen-lg"
           src="https://utfs.io/f/ab8c8487-8281-4286-bbce-ec8d78310cc1-ml3hzq.png"
         />
       </div>
