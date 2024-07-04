@@ -1,5 +1,4 @@
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
-import "./App.css";
 import { LandingPage } from "./pages/LandingPage";
 import { Header } from "./navigation/Header";
 
